@@ -360,3 +360,53 @@ p {
     margin-right: 30px;
     margin-bottom: 50px;
 }
+.example-work {
+    margin-top: 0;
+    background-image: url(./assests/img/ds.png);
+    background-repeat: no-repeat;
+    background-position: top 0 bottom 165px;
+}
+.example-work .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.example-work .content h2 {
+    font-family: 'Montserrat Bold';
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 70px 0 30px;
+}
+.example-work .content .descr-video {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    font-family: 'Montserrat Regular';
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+.video img {
+    margin-bottom: 85px;
+}
+.video{
+    position: relative;
+}
+.video:hover .play-sign {
+    opacity: 1;
+}
+.video .play-sign {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 335px;
+    bottom: 250px;
+    opacity: 0;
+}
+
