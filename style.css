@@ -103,7 +103,6 @@ h3 {
  
 .menu {
     font-family: 'Montserrat Reguar';
-    
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -164,7 +163,7 @@ h3 {
 }
 
 
-.descr {
+.services .descr {
     display: flex;
     flex-direction: column;
 }
@@ -183,5 +182,83 @@ p {
     line-height: 22px;
     font-family: 'Montserrat Regular';
     color: #999999;
-
 }
+.company-development-standards {
+    background: #F6F6F8;
+    display: flex;
+    flex-direction: column;
+}
+.company-development-standards .container {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.company-development-standards .title {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    color: #323232;
+}
+.company-development-standards .descr {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    margin-top: 40px;
+}
+.company-development-standards .details {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985FF;
+    margin-top: 30px;
+}
+.left-block {
+    margin-right: 121px;
+}
+.left-block, .right-block {
+    flex: 1;
+}
+.standards-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+.indicators {
+    margin:0 50px ;
+}
+.indicator {
+    display: flex;
+}
+.indicator .kol {
+    padding-left: 20px;
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    color: #000000;
+}
+#img {
+    padding-top: 8px;
+    padding-bottom: 11px;
+}
+.indicators .name {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    padding-top: 14px;
+}
+
