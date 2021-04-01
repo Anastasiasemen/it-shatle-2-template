@@ -262,3 +262,65 @@ p {
     padding-top: 14px;
 }
 
+.our-works {
+    background: linear-gradient(#504DC2 50%, #fff 50%);
+    padding: 100px 0 85px;
+}
+.our-works .top {
+    display: flex;
+    justify-content: space-between;
+
+}
+.our-works .top .title {
+    font-family: 'Montserrat Bold';
+    font-size: 36px;
+    line-height: 53px;
+    font-style: normal;
+    color: #FFFFFF;
+    margin: 0;
+}
+.top .title, .top .button-top{
+    flex: 1;
+}
+.top .button-top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.researches {
+    display: flex;
+    margin-top: 70px;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 85px;
+}
+.example-research {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.example-research h5 {
+    font-family: 'Montserrat Bold';
+    font-size: 18px;
+    line-height: 22px;
+}
+.example-research h5 span {
+    color: #4985FF;
+}
+.descr-research {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    margin-bottom: 30px;
+}
+.example-research a{
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985FF;
+}
