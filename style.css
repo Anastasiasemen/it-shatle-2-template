@@ -479,4 +479,84 @@ p {
     color: #999999;
     margin-top: 35px;
     }
+    .company-information {
+        background: #F6F6F8;
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .company-information .content {
+        display: flex;
+        padding-bottom: 70px;
+        border-bottom: 1px solid #E0E0E0;
+        margin-bottom: 30px;
+    }
+    .company-information .content .title {
+        font-family: 'Montserrat Bold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+        margin-bottom: 35px;
+    }
+    .list-buildings {
+        list-style-image: url(./assests/img/strela.png)
+    }
+    .list-buildings li {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        font-family: 'Montserrat Regular';
+        color: #999999;
+        margin-bottom: 30px;
+    }
+    .contact-information .text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        font-family: 'Montserrat Regular';
+        color: #999999;  
+    }
+    .contact-information .email {
+        display: flex;
+        margin-bottom: 30px;  
+    }
+    
+    .contact-information .tel {
+        display: flex;
+        margin-bottom: 30px;
+    }
+    .contact-information .location {
+        display: flex;
+    }
+    .contact-information{
+        margin-right: 43px;
+    }
+    .main-links {
+        margin-right: 43px; 
+    }
+    .contact-information .our-proects {
+        margin-right: 43px; 
+    }
+    .contact-information img {
+        margin-right: 16px;
+    }
+    .rights {
+        margin-bottom: 30px;
+        font-family: 'Montserrat Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 21px;
+        text-align: center;
+        color: #999999;
+    }
+
+
+
 
