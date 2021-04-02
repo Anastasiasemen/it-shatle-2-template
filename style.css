@@ -36,7 +36,7 @@ body {
     margin: 0 auto;
 }
 .primary-button {
-font-family: Montserrat Medium;
+font-family: 'Montserrat Medium';
 background: #4985FF;
 box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
 border-radius: 30px;
@@ -409,4 +409,74 @@ p {
     bottom: 250px;
     opacity: 0;
 }
+.subscription {
+    padding-bottom: 85px;
+}
+.subscription .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscription .container h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    font-family: 'Montserrat Bold';
+    color: #000000;
+    margin-bottom: 20px;
+}
+.subscription .container p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    font-family: 'Montserrat Regular';
+    color: #999999;
+    margin-bottom: 30px;
+}
+.search-bar{
+    display: flex;
+}
+.search-bar input {
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    padding-left: 33px;
+    border-radius: 30px 0 0 30px;
+}
+.search-bar input[placeholder] {
+    font-style: normal;
+    font-family: 'Montserrat Regular';
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #999999;
+} 
+.search-bar button {
+    font-family: 'Montserrat Medium';
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0 30px 30px 0;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 14px 36px;
+    border: 0;
+    }
+    .subscription .container .text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    font-family: 'Montserrat Regular';
+    color: #999999;
+    margin-top: 35px;
+    }
 
